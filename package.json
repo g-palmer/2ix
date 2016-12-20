@@ -1,17 +1,13 @@
 {
   "name": "stubhub",
   "version": "0.0.1",
-  "description": "stubhub api client",
+  "description": "stubhub ticket tracker",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "request": "^2.55.0",
-    "tough-cookie": "^0.13.0",
-    "underscore": "^1.8.3",
-    "xml2js": "^0.4.8"
   }
 }
