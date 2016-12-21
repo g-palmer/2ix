@@ -1,17 +1,17 @@
 {
-  "name": "stubhub",
+  "name": "2ix",
+  "repository": "https://github.com/g-palmer/2ix",
   "version": "0.0.1",
-  "description": "stubhub api client",
+  "description": "stubhub ticket tracker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "DEBUG=2ix* node scripts/test"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "request": "^2.55.0",
-    "tough-cookie": "^0.13.0",
-    "underscore": "^1.8.3",
-    "xml2js": "^0.4.8"
+    "debug": "2.4.5",
+    "dotenv": "2.0.0",
+    "superagent": "3.3.1"
   }
 }
